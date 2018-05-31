@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'app.artyomd'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile name: 'opencv-400'
+}
