@@ -7,6 +7,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.awt.image.DataBufferByte;
 
+@SuppressWarnings("WeakerAccess")
 class FacePanel extends JPanel {
 
     private BufferedImage image;

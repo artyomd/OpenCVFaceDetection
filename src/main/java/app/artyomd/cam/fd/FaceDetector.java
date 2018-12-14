@@ -4,6 +4,7 @@ import org.opencv.core.*;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.objdetect.CascadeClassifier;
 
+@SuppressWarnings("WeakerAccess")
 class FaceDetector {
     private CascadeClassifier face_cascade;
     private MatOfRect faces = new MatOfRect();

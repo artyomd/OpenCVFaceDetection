@@ -8,7 +8,7 @@ import org.opencv.core.Mat;
 import org.opencv.videoio.VideoCapture;
 
 public class CamFD {
-    public static void main(String arg[]) {
+    public static void main(String... arg) {
         System.out.println(Core.VERSION);
         System.load(CamFD.class.getResource("libopencv_java400.so").getPath());
 
